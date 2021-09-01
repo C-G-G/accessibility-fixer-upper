@@ -2,6 +2,10 @@ html {
   font-family: Merriweather, serif;
 }
 
+h1, h2, h3, li, .wrapper p, button, footer {
+  font-weight: bold;
+}
+
 .color-brand {
   color: #568c36;
 }
@@ -12,7 +16,8 @@ html {
 
 a {
   color: #568c36;
-  text-decoration: none;
+
+  /* text-decoration: none; */
 }
 
 a:hover {
