@@ -84,9 +84,10 @@
           <span class="mega max-length not-centered">Even those who arrange and design shrubberies are under considerable economic stress at this period in history.</span>
 
           <table>
+            <caption>Price table for different types of shrubs</caption>
             <thead>
               <tr>
-                <th>&nbsp;</th>
+                <th scope="col">&nbsp;</th>
                 <th scope="col">Small</th>
                 <th scope="col">Medium</th>
                 <th scope="col">Large</th>
@@ -145,16 +146,16 @@
 
           <form class="grid" method="post" action="#">
             <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
-              <span class="push-1-8">Your name</span>
-              <input>
+              <label for="name" class="push-1-8">Your name</label>
+              <input id="name" type="text">
             </div>
             <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
-              <span class="push-1-8">E-mail address</span>
+              <label for="email" class="push-1-8">E-mail address</label>
               <input type="email" id="email" name="email" required>
             </div>
             <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
-              <span class="push-1-8">Type of shrubbery</span>
-              <select>
+              <label for="type" class="push-1-8">Type of shrublabel</span>
+              <select id="type">
                 <option>Two-level shrubbery</option>
                 <option>Small shrubbery</option>
                 <option>Shrubbery with laurels</option>
